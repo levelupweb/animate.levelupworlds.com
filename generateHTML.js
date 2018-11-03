@@ -38,6 +38,10 @@ module.exports = () => `<!DOCTYPE html>
 <a class="item" target="_blank" href="${
   process.env.INSTAGRAM
 }"><img src="${getPublicPath("instagram.png")}" width="20px" /></a>
+
+<a class="item" href="${process.env.YOUTUBE}"><img src="${getPublicPath(
+  "youtube.png"
+)}" width="20px" /></a>
 <a class="item" href="mailto:${process.env.EMAIL}"><img src="${getPublicPath(
   "mail-black-envelope-symbol.png"
 )}" width="20px" /></a>
